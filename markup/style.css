@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #9b89b3;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container{
+    background-color: #fcf7ff;
+    width: 800px;
+    max-width: 100%;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h3{
+    margin: 0;
+    opacity: 0.5;
+    letter-spacing: 2px;
+}
+
+.joke{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.btn{
+    background-color: #845ec2;
+    color: #fefedf;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.btn:active{
+    transform: scale(0.98);
+    
+}
+
+/* .btn:hover{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    color: white;
+    font-family: 'Josefin Sans';
+    transition: all 1s;
+} */
+
+.btn:hover {
+    background-color: #52cffe; /* Change to the final background color on hover */
+    /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+    color: white;
+    font-family: 'Josefin Sans';
+    transition: background-color 0.5s, color 0.5s  ease-in; /* Add transitions for color changes */
+}
+
+.btn:focus{
+    outline: 0;
+}
